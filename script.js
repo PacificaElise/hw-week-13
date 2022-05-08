@@ -1,9 +1,9 @@
 "use strict";
 
-function showMessage () {
-    let userName = prompt('Как тебя зовут?', "друг");
-    alert(`Привет, ${userName}!`);
-}
+
+let showMessage = () => {let userName = prompt("Как тебя зовут?", "друг");
+alert(`Привет, ${userName}!`);}
+
 
 function sum () {
     let a = prompt('Введите первое слагаемое');
